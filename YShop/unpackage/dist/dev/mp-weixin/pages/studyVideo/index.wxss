@@ -1,0 +1,38 @@
+page {
+  height: 100%;
+}
+.studyVideo {
+  display: flex;
+  height: 100%;
+}
+.studyVideo .left {
+  width: 200rpx;
+  height: 100%;
+  border-right: 1px solid #eee;
+}
+.studyVideo .left view {
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+.studyVideo .left .active {
+  color: #fff;
+  background-color: #FF4040;
+  -webkit-transform: scaleX(1.2);
+          transform: scaleX(1.2);
+}
+.studyVideo .right {
+  width: 500rpx;
+  height: 100%;
+  margin: 0 auto;
+}
+.studyVideo .right image {
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 5px;
+}
+.studyVideo .right view {
+  margin: 20rpx 0;
+}
+

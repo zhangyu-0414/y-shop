@@ -1,0 +1,34 @@
+pages {
+  width: 100%;
+  height: 100%;
+}
+.news {
+  width: 100%;
+  height: 100%;
+}
+.news .newList {
+  display: flex;
+  padding: 15rpx 15rpx;
+  border-bottom: 1px solid #FF4040;
+}
+.news .newList image {
+  min-width: 200rpx;
+  max-width: 200rpx;
+  height: 150rpx;
+}
+.news .newList .right {
+  padding: 0 15rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news .newList .right .tit {
+  font-size: 33rpx;
+}
+.news .newList .right .info {
+  font-size: 20rpx;
+}
+.news .newList .right .info text:nth-child(2) {
+  margin-left: 50rpx;
+}
+

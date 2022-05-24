@@ -1,0 +1,1 @@
+<view class="studyVideo"><scroll-view class="left" scroll-y="{{true}}"><view>Web前端</view><view>JAVA</view><view>C</view><view>C++</view><view>PYTHON</view><view>HASH</view></scroll-view><scroll-view class="right" scroll-y="{{true}}"><view>暂无数据</view></scroll-view></view>

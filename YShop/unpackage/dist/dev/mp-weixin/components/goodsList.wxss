@@ -1,0 +1,37 @@
+.goodsList {
+  padding: 0 15rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.goodsList .goodsItem {
+  width: 355rpx;
+  background-color: #fff;
+  padding: 15rpx;
+  margin: 10rpx 0;
+  box-sizing: border-box;
+}
+.goodsList .goodsItem image {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 150px;
+}
+.goodsList .goodsItem .price {
+  color: #FF4040;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+.goodsList .goodsItem .price text:nth-child(2) {
+  font-size: 26rpx;
+  margin-left: 15rpx;
+  color: #ccc;
+  text-decoration: line-through;
+}
+.goodsList .goodsItem .goodsTit {
+  font-size: 28rpx;
+  line-height: 50rpx;
+  padding-top: 5rpx;
+  padding-bottom: 15rpx;
+}
+

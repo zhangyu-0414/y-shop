@@ -1,0 +1,8 @@
+.goodsList {
+  background-color: #eee;
+}
+.goodsList .tit {
+  width: 100%;
+  text-align: center;
+}
+

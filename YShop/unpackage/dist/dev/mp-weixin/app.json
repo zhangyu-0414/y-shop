@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/news/index",
+        "pages/cart/index",
+        "pages/member/index",
+        "pages/shop/index",
+        "pages/contact/index",
+        "pages/comPhoto/index",
+        "pages/studyVideo/index",
+        "pages/newsDetail/index",
+        "pages/goodsDetail/index"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "YShop",
+        "navigationBarBackgroundColor": "#FF4040",
+        "backgroundColor": "#FFFFFF"
+    },
+    "tabBar": {
+        "selectedColor": "#FF4040",
+        "color": "#ccc",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/home/index",
+                "iconPath": "./static/icon/home.png",
+                "selectedIconPath": "./static/icon/home-active.png"
+            },
+            {
+                "text": "资讯",
+                "pagePath": "pages/news/index",
+                "iconPath": "./static/icon/news.png",
+                "selectedIconPath": "./static/icon/news-active.png"
+            },
+            {
+                "text": "购物车",
+                "pagePath": "pages/cart/index",
+                "iconPath": "./static/icon/cart.png",
+                "selectedIconPath": "./static/icon/cart-active.png"
+            },
+            {
+                "text": "会员",
+                "pagePath": "pages/member/index",
+                "iconPath": "./static/icon/member.png",
+                "selectedIconPath": "./static/icon/member-active.png"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}
